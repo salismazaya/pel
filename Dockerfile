@@ -6,4 +6,4 @@ COPY . .
 RUN rm package-lock.json
 RUN yarn install
 RUN yarn build
-RUN yarn preview --host 0.0.0.0
+CMD yarn preview --host 0.0.0.0
